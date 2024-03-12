@@ -1,0 +1,113 @@
+.carrito {
+    position: fixed;
+    top: 25px; 
+    left: 25px; 
+    z-index: 9999; 
+    width:100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.administrador {
+  position: fixed;
+  top: 25px; 
+  left: 91%; 
+  z-index: 9999; 
+  width:100px;
+  height: 100px;
+  border-radius: 30px;
+  color:black;
+}
+
+
+.btn i.fas.fa-shopping-cart {
+    font-size: 3.5em; 
+    margin-right: 5px; 
+    vertical-align: middle; 
+}
+
+.input_catalogo {
+    border-radius: 10px;
+}
+
+
+.fondoGestor {
+    background-image: url("../images/fondo_catalogo.jpg");
+    background-size: cover; /* Para ajustar la imagen al tamaño del viewport */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; 
+}
+
+.fondoModalGestor{
+    background-image: url("../images/fondoModal.jpg");
+    background-size: cover; /* Para ajustar la imagen al tamaño del viewport */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; 
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra */
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del pulgar de la barra */
+    border-radius: 5px; /* Borde redondeado */
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del pulgar de la barra al pasar el ratón */
+  }
+
+  .fondoNegro{
+    background-color: black;
+  } 
+
+
+  .custom-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #f8f9fa; /* Color del borde */
+    color: #f8f9fa; /* Color del texto */
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 0.25rem; /* Borde redondeado */
+    transition: all 0.3s ease;
+  }
+
+  /* Estilo al pasar el ratón sobre el botón */
+  .custom-btn:hover {
+    color: #212529; /* Cambiar color del texto al pasar el ratón */
+    background-color: #f8f9fa; /* Cambiar color de fondo al pasar el ratón */
+    border-color: #f8f9fa; /* Cambiar color del borde al pasar el ratón */
+  }
+
+  .logo
+  {
+    border-radius: 100px;
+    width: 90%;
+    height: auto;
+  }
+
+  .logo-catalogo
+  {
+    border-radius: 100px;
+    width: 10%;
+    height: auto;
+  }
+
+  body {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+    box-sizing: border-box; 
+}
+
+.fondo-estrellas
+{
+  background-image: url("../images/estrellas.png");
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: repeat; 
+}
